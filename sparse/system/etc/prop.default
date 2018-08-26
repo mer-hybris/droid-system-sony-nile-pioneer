@@ -9,7 +9,7 @@ ro.debuggable=0
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Thu May 31 10:00:38 CEST 2018
-ro.bootimage.build.date.utc=1527753638
-ro.bootimage.build.fingerprint=Sony/aosp_h4113/pioneer:8.1.0/OPM2.171019.029/frajo05311000:user/dev-keys
+ro.bootimage.build.date=Fri Aug 24 21:57:02 CEST 2018
+ro.bootimage.build.date.utc=1535140622
+ro.bootimage.build.fingerprint=Sony/aosp_h4113/pioneer:8.1.0/OPM2.171026.006.G1/frajo08242157:user/dev-keys
 persist.sys.usb.config=none
