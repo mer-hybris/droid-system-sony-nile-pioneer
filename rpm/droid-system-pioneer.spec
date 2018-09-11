@@ -1,5 +1,5 @@
-%define device h4113
-%define rpm_device h4113
+%define device pioneer
+%define rpm_device pioneer
 
 %define dsd_path ./
 

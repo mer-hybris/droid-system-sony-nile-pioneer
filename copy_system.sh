@@ -32,3 +32,6 @@ cp -r $SYSTEM_MOUNT/* $SYSTEM_SPARSE
 # Remove generic unused directories and files
 source droid-system-device/helpers/remove-unused.sh
 
+# Move build.prop to proper place
+DEVICE=$(grep ro.product.name $SYSTEM_SPARSE/build.prop | cut -d '_' -f2)
+mv $SYSTEM_SPARSE/build.prop $DEVICE/system
