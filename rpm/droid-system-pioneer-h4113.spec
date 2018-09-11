@@ -20,6 +20,9 @@ Source0: %{name}-%{version}.tgz
 %description
 %{summary}
 
+%prep
+%setup -q -n %{name}-%{version}
+
 # This section is empty by purpose
 %build
 
