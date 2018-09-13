@@ -14,8 +14,10 @@ Version:       0.0.1
 Release:       1
 Group:         System
 License:       Proprietary
-Requires:      droid-system-pioneer
-Source0: %{name}-%{version}.tgz
+Requires:      droid-system-%{family}
+Source0:       %{name}-%{version}.tgz
+Source1:       droid-system-%{family}-rpmlintrc
+URL:           https://bitbucket.org/jolla/sony-nile-droid-system-pioneer
 
 %description
 %{summary}
