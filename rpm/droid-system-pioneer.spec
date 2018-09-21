@@ -3,9 +3,12 @@
 
 %define dsd_path ./
 
+Requires(post): coreutils
+Requires(post): libcap
+
 %include droid-system-device/droid-system.inc
 
 %post
-setcap cap_setgid,cap_audit_control,cap_syslog+ep /system/bin/logd
-chmod 0755 /system/bin/logd
+/usr/sbin/setcap cap_setgid,cap_audit_control,cap_syslog+ep /system/bin/logd
+/bin/chmod 0755 /system/bin/logd
 
