@@ -128,6 +128,7 @@ Requires(post): libcap
 [ -e /system/bin/tc ] && chown 0:2000 /system/bin/tc
 [ -e /system/bin/telecom ] && chown 0:2000 /system/bin/telecom
 [ -e /system/bin/thermalserviced ] && chown 0:2000 /system/bin/thermalserviced
+[ -e /system/bin/timekeep ] && chown 0:2000 /system/bin/timekeep
 [ -e /system/bin/tinymix ] && chown 0:2000 /system/bin/tinymix
 [ -e /system/bin/tombstoned ] && chown 0:2000 /system/bin/tombstoned
 [ -e /system/bin/toolbox ] && chown 0:2000 /system/bin/toolbox
