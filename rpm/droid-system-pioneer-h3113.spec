@@ -17,7 +17,7 @@ License:       Proprietary
 Requires:      droid-system-%{family}
 Source0:       %{name}-%{version}.tgz
 Source1:       droid-system-%{family}-rpmlintrc
-URL:           https://bitbucket.org/jolla/sony-nile-droid-system-pioneer
+URL:           https://github.com/mer-hybris/droid-system-sony-nile-pioneer
 
 %description
 %{summary}
