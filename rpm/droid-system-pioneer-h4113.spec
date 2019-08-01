@@ -37,3 +37,4 @@ cp %{device}/system/etc/prop.default $RPM_BUILD_ROOT/system/etc/prop.default
 %files
 %defattr(-,root,root,-)
 /system/build.prop
+/system/etc/prop.default
