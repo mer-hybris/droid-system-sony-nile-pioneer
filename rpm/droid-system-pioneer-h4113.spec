@@ -30,8 +30,9 @@ URL:           https://github.com/mer-hybris/droid-system-sony-nile-pioneer
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/system
+mkdir -p $RPM_BUILD_ROOT/system/etc
 cp %{device}/system/build.prop $RPM_BUILD_ROOT/system/build.prop
+cp %{device}/system/etc/prop.default $RPM_BUILD_ROOT/system/etc/prop.default
 
 %files
 %defattr(-,root,root,-)
