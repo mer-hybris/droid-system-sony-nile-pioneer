@@ -1,4 +1,4 @@
-%define device pioneer
+%define multiple_rpms 1
 %define rpm_device pioneer
 
 %define dsd_path ./
